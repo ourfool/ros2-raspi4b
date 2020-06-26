@@ -24,4 +24,4 @@ sudo apt install python3-argcomplete
 # 環境変数設定
 echo "Environment setup"
 source /opt/ros/dashing/setup.bash
-echo source /opt/ros/dashing/setup.bash >> ~/.bashrc
+echo "source /opt/ros/dashing/setup.bash" >> ~/.bashrc

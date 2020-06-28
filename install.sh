@@ -18,7 +18,7 @@ sudo apt update
 sudo apt install ros-dashing-desktop
 
 # 関連ツールのインストール
-echo "Install argcomplete"
+echo "Install related tools"
 sudo apt install python3-argcomplete python3-colcon-common-extensions python3-rosdep
 sudo rosdep init
 rosdep update

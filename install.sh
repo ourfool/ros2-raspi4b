@@ -22,6 +22,7 @@ echo "Install related tools"
 sudo apt install python3-argcomplete python3-colcon-common-extensions python-rosdep
 sudo rosdep init
 rosdep update
+sudo apt install 'ros-dashing-ros2bag*' 'ros-dashing-rosbag2*'
 
 # 環境変数設定
 echo "Environment setup"
